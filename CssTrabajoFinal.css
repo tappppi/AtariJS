@@ -1,0 +1,48 @@
+.container{
+    width: 900px;
+    height: 100vh;
+    margin:2rem auto;
+}
+.contenedor{
+    width:570px;
+    height:300px;
+    position: relative;
+    border:1px solid #FD971F;
+    margin:3rem auto;
+}
+.bloque{
+    
+    height:20px;
+    width:100px;
+    background-color:dodgerblue;
+    position:absolute;
+}
+.usuario{
+    width:100px;
+    height:20px;
+    position:absolute;
+    background-color:tomato;
+}
+.bola{
+    height:20px;
+    width:20px;
+    position:absolute;
+    border-radius: 10px;
+    background-color:pink;
+}
+
+body.darkmode {
+    background-color: #272822;
+}
+
+.darkmode .bloque{
+    background-color: #F92672;
+
+}
+.darkmode .bola {
+    background-color: #66D9EF;
+}
+.darkmode .usuario {
+
+    background-color: #A6E22E;
+}
